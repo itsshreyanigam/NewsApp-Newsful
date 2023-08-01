@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+*{
+  background-color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h1{
+  margin-top: 90px;
+  margin-bottom: 0px;
+  font-family: 'DM Serif Display', serif;
+}
+nav{
+  font-family: Georgia, 'Times New Roman',serif;
+  font-size: 20px;
+}
+.navbar-brand{
+  margin-left: 15px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.nav-item:hover{
+  font-weight: 550;
+}
+
+
+.card{
+  margin-top: 27px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.card-title{
+  font-weight: 800;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card {
+  transition: transform 0.3s;
+}
+
+.mybutton{
+  background-color: rgb(23, 200, 240);
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 60px 10px 60px;
+}
+.mybutton:hover{
+  background-color: #01aeac;
+}
+.pn{
+  margin: 50px 0px;
+}
+.news{
+  margin: 10px 5%;
+}
+
+.light{
+  color: black;
+  background-color: white;
+}
+.dark{
+  color: white;
+  background-color: black;
+}
+
